@@ -1,6 +1,6 @@
 import React from 'react';
 import { Todo } from './todo'
-import { addTodo, deleteTodo, updateTodo } from './todoSlice'
+// import { addTodo, deleteTodo, updateTodo } from './todoSlice'
 
 export const Todos: React.FC<TodosProps> = ({todos}) => {
   return(
